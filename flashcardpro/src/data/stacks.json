@@ -19,7 +19,7 @@
       "title": "Computer Science Basics",
       "id": 1,
       "cards": [
-        { "id": 0, "prompt": "A single line of code", "answer": "statement" },
+        { "id": 0, "prompt": "A ingle line of code", "answer": "statement" },
         { "id": 1, "prompt": "A word reserved to store data", "answer": "variable" },
         { "id": 2, "prompt": "A storage component to serve requests faster", "answer": "cache" },
         { "id": 3, "prompt": "Where data is stored", "answer": "memory" },
