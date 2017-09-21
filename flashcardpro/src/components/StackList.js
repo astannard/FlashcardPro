@@ -37,12 +37,12 @@ class StackList extends Component {
     }
 }
 
-function mapDispatchToProps(dispatch){
-    return bindActionCreators({
-        setStack
-    }, dispatch);
-}
+// function mapDispatchToProps(dispatch){
+//     return bindActionCreators({
+//         setStack
+//     }, dispatch);
+// }
 
-const connectComponent = connect(null,mapDispatchToProps);
-
-export default connectComponent(StackList);
+//const connectComponent = connect(null,mapDispatchToProps);
+export default connect(null,{setStack})(StackList);
+//export default connect(null,mapDispatchToProps)(StackList);
