@@ -1,5 +1,6 @@
 import {SET_STACK} from '../actions';
 
+
 function stack(state = {}, action){
     
     switch(action.type){
